@@ -27,8 +27,8 @@ matplotlib.use("Agg")          # отключаем интерактивный b
 import matplotlib.pyplot as plt
 import numpy as np
 
-from complex_euler import classic_euler, complex_two_step_euler
-from equations import EQUATIONS
+from python.complex_euler import classic_euler, complex_two_step_euler
+from python.equations import EQUATIONS
 
 
 # Каталог для PNG-выходов

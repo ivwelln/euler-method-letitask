@@ -31,7 +31,7 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-from complex_euler import (
+from python.complex_euler import (
     stability_function_classic,
     stability_function_complex2,
     stability_function_complex3,

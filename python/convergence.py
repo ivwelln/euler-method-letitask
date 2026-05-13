@@ -25,8 +25,8 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 
-from complex_euler import classic_euler, complex_two_step_euler, infinity_norm_error
-from equations import EQUATIONS
+from python.complex_euler import classic_euler, complex_two_step_euler, infinity_norm_error
+from python.equations import EQUATIONS
 
 
 PLOTS_DIR = os.path.join(os.path.dirname(__file__), "..", "plots")

@@ -107,7 +107,7 @@ def figure_ring_convergence():
     ax.set_ylabel("Невязка кольца |y_back(0) − y₀|")
     ax.set_title("Кольцевой тест: «невязка кольца» в log-log координатах\n"
                  "(классический — пунктир, комплексный 2-шаговый — сплошная)")
-    ax.legend(fontsize=8, loc="lower right", ncol=2)
+    ax.legend(bbox_to_anchor=(0.5, -0.15), fontsize=8, loc="upper center", ncol=2)
     ax.grid(True, which="both", alpha=0.4)
 
     out = os.path.join(PLOTS_DIR, "ring_test_convergence.png")
